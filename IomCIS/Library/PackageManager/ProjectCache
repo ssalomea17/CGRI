@@ -5,21 +5,372 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637403529923887334
-    m_Hash: 382242050
+      ticks: 637404636327851113
+    m_Hash: 3412649671
   m_LockFileStatus:
     m_FilePath: E:/_Repository/CGRI/IomCIS/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637403529999040347
-    m_Hash: 1658522720
+      ticks: 637404636444093061
+    m_Hash: 1698624448
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.unity.2d.sprite@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.1.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite
+      assetPath: Packages/com.unity.2d.sprite
+      name: com.unity.2d.sprite
+      displayName: 2D Sprite
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: Use Unity Sprite Editor Window to create and edit Sprite asset
+        properties like pivot, borders and Physics shape
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - sprite
+      - sprite editor window
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.2d.tilemap@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.1.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap
+      assetPath: Packages/com.unity.2d.tilemap
+      name: com.unity.2d.tilemap
+      displayName: 2D Tilemap Editor
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: 2D Tilemap Editor is a package that contains editor functionalities
+        for editing Tilemaps.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - Tilemap
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.ads@3.4.5
+      testable: 0
+      isDirectDependency: 1
+      version: 3.4.5
+      source: 1
+      resolvedPath: E:\_Repository\CGRI\IomCIS\Library\PackageCache\com.unity.ads@3.4.5
+      assetPath: Packages/com.unity.ads
+      name: com.unity.ads
+      displayName: Advertisement
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Unity Ads is a video ad network for iOS and Android that allows
+        you to quickly and effectively monetize your games.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7
+        - 0.0.8
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 2.0.0
+        - 2.0.3
+        - 2.0.4
+        - 2.0.7
+        - 2.0.8
+        - 2.3.1
+        - 2.3.2
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.1.1
+        - 3.2.0
+        - 3.3.0
+        - 3.3.1
+        - 3.4.0
+        - 3.4.1
+        - 3.4.2
+        - 3.4.4
+        - 3.4.5
+        - 3.4.7
+        - 3.4.9
+        - 3.5.0
+        compatible:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7
+        - 0.0.8
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 2.0.0
+        - 2.0.3
+        - 2.0.4
+        - 2.0.7
+        - 2.0.8
+        - 2.3.1
+        - 2.3.2
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.1.1
+        - 3.2.0
+        - 3.3.0
+        - 3.3.1
+        - 3.4.0
+        - 3.4.1
+        - 3.4.2
+        - 3.4.4
+        - 3.4.5
+        - 3.4.7
+        - 3.4.9
+        - 3.5.0
+        verified: 3.5.0
+      dependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - ads
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637238513750000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ads.git
+        revision: 731a04e78b2c641fd6a924d34e37ae0529ecc68c
+        path: 
+    - packageId: com.unity.analytics@3.3.5
+      testable: 0
+      isDirectDependency: 1
+      version: 3.3.5
+      source: 1
+      resolvedPath: E:\_Repository\CGRI\IomCIS\Library\PackageCache\com.unity.analytics@3.3.5
+      assetPath: Packages/com.unity.analytics
+      name: com.unity.analytics
+      displayName: Analytics Library
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The Unity Analytics Library contains the Analytics Event Tracker
+        component, the Data Privacy plug-in, and the Standard Events API.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.7
+        - 0.0.8
+        - 0.0.9
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 0.0.17
+        - 0.0.19
+        - 2.0.5
+        - 2.0.11
+        - 2.0.13
+        - 2.0.14
+        - 2.0.15
+        - 2.0.16
+        - 3.0.5
+        - 3.0.9
+        - 3.1.1
+        - 3.2.0
+        - 3.2.2
+        - 3.2.3
+        - 3.3.0
+        - 3.3.2-preview
+        - 3.3.2
+        - 3.3.4
+        - 3.3.5
+        - 3.4.0
+        - 3.5.3
+        compatible:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.7
+        - 0.0.8
+        - 0.0.9
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 0.0.17
+        - 0.0.19
+        - 2.0.5
+        - 2.0.11
+        - 2.0.13
+        - 2.0.14
+        - 2.0.15
+        - 2.0.16
+        - 3.0.5
+        - 3.0.9
+        - 3.1.1
+        - 3.2.0
+        - 3.2.2
+        - 3.2.3
+        - 3.3.0
+        - 3.3.2-preview
+        - 3.3.2
+        - 3.3.4
+        - 3.3.5
+        - 3.4.0
+        - 3.5.3
+        verified: 3.5.3
+      dependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - analytics
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637146252790000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.cds.internal.unity3d.com:unity/com.unity.analytics.git
+        revision: 98d7da077d4e205d8500771aa31648bdedd0f9e2
+        path: 
     - packageId: com.unity.collab-proxy@1.3.9
       testable: 0
       isDirectDependency: 1
@@ -42,9 +393,45 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.2.3-preview
+        - 1.2.4-preview
+        - 1.2.6
+        - 1.2.7
+        - 1.2.9
+        - 1.2.11
+        - 1.2.15
+        - 1.2.16
+        - 1.2.17-preview.3
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
         - 1.3.9
+        - 2.0.0-preview.6
+        - 2.0.0-preview.8
+        - 2.0.0-preview.15
+        - 2.0.0-preview.17
+        - 2.0.0-preview.20
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.1.0-preview.3
+        - 2.1.0-preview.5
+        - 2.1.0-preview.6
         compatible:
         - 1.3.9
+        - 2.0.0-preview.6
+        - 2.0.0-preview.8
+        - 2.0.0-preview.15
+        - 2.0.0-preview.17
+        - 2.0.0-preview.20
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.1.0-preview.3
+        - 2.1.0-preview.5
+        - 2.1.0-preview.6
         verified: 1.3.9
       dependencies: []
       resolvedDependencies: []
@@ -71,7 +458,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637314349270000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -101,9 +488,47 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.6
+        - 1.0.8
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2-preview
+        - 1.1.2-preview.2
+        - 1.1.3-preview.1
+        - 1.1.4-preview
+        - 1.1.4
+        - 1.2.0-preview
         - 1.2.1
+        - 2.0.0-preview
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
+        - 2.0.7
+        - 3.0.1
+        - 3.0.2
         compatible:
+        - 1.0.2
+        - 1.0.6
+        - 1.0.8
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2-preview
+        - 1.1.2-preview.2
+        - 1.1.3-preview.1
+        - 1.1.4-preview
+        - 1.1.4
+        - 1.2.0-preview
         - 1.2.1
+        - 2.0.0-preview
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
+        - 2.0.7
+        - 3.0.1
+        - 3.0.2
         verified: 1.2.1
       dependencies:
       - name: com.unity.test-framework
@@ -130,13 +555,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637123753810000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: git@github.cds.internal.unity3d.com:unity/com.unity.ide.rider.git
-        revision: 038f7161a30add43d98b31fd686ade12ffb96adb
+        revision: 009bcadf1eb16d9bbf3d00bcf6ccdde2162ce0cb
         path: 
     - packageId: com.unity.ide.visualstudio@2.0.3
       testable: 0
@@ -160,10 +585,30 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
         - 2.0.3
+        - 2.0.5
         compatible:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
         - 2.0.3
-        verified: 2.0.3
+        - 2.0.5
+        verified: 2.0.5
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -179,7 +624,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637359495930000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -209,10 +654,30 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.7
+        - 1.1.0
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.2.0
+        - 1.2.1
         - 1.2.2
+        - 1.2.3
         compatible:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.7
+        - 1.1.0
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.2.0
+        - 1.2.1
         - 1.2.2
-        verified: 1.2.2
+        - 1.2.3
+        verified: 1.2.3
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -228,13 +693,348 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637356850590000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: d4564dab663617ea31f5782b365961d5304bed3c
+        path: 
+    - packageId: com.unity.multiplayer-hlapi@1.0.6
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.6
+      source: 1
+      resolvedPath: E:\_Repository\CGRI\IomCIS\Library\PackageCache\com.unity.multiplayer-hlapi@1.0.6
+      assetPath: Packages/com.unity.multiplayer-hlapi
+      name: com.unity.multiplayer-hlapi
+      displayName: Multiplayer HLAPI
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The high level API component of the Unity Multiplayer system.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.2.4-preview
+        - 0.2.5-preview
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.4
+        - 1.0.6
+        compatible:
+        - 1.0.6
+        verified: 
+      dependencies:
+      - name: nuget.mono-cecil
+        version: 0.1.6-preview
+      resolvedDependencies:
+      - name: nuget.mono-cecil
+        version: 0.1.6-preview
+      keywords:
+      - multiplayer
+      - networking
+      - hlapi
+      - high-level
+      - api
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637256009420000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.multiplayer-hlapi.git
+        revision: 5e5b44fbffb380444bc35bb716d4926174801f71
+        path: 
+    - packageId: com.unity.postprocessing@2.3.0
+      testable: 0
+      isDirectDependency: 1
+      version: 2.3.0
+      source: 1
+      resolvedPath: E:\_Repository\CGRI\IomCIS\Library\PackageCache\com.unity.postprocessing@2.3.0
+      assetPath: Packages/com.unity.postprocessing
+      name: com.unity.postprocessing
+      displayName: Post Processing
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.7
+        - 0.1.8
+        - 2.0.0-beta
+        - 2.0.1-beta
+        - 2.0.2-preview
+        - 2.0.3-preview
+        - 2.0.5-preview
+        - 2.0.7-preview
+        - 2.0.8-preview
+        - 2.0.9-preview
+        - 2.0.10-preview
+        - 2.0.11-preview
+        - 2.0.12-preview
+        - 2.0.13-preview
+        - 2.0.14-preview
+        - 2.0.15-preview
+        - 2.0.16-preview
+        - 2.0.17-preview
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.1.7
+        - 2.2.1
+        - 2.2.2
+        - 2.3.0
+        - 3.0.1
+        compatible:
+        - 2.3.0
+        - 3.0.1
+        verified: 2.3.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637144563160000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.com:Unity-Technologies/PostProcessing.git
+        revision: e6de985c41f04a5fc7c7227dd67e3e73fac834e7
+        path: 
+    - packageId: com.unity.progrids@3.0.3-preview.5
+      testable: 0
+      isDirectDependency: 1
+      version: 3.0.3-preview.5
+      source: 1
+      resolvedPath: E:\_Repository\CGRI\IomCIS\Library\PackageCache\com.unity.progrids@3.0.3-preview.5
+      assetPath: Packages/com.unity.progrids
+      name: com.unity.progrids
+      displayName: ProGrids
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Advanced grid and object snapping for the scene view. ProGrids
+        is a dynamically placed grid, available on all 3 axes and at any position
+        in the scene.
+
+
+        ProGrids snaps objects in world space, ensuring consistent
+        placement of objects in your level.
+
+
+        In addition, ProGrids is completely
+        customizable. Change the colors of your grid, the snap sizing, unit of measurement,
+        and more!'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 3.0.1-preview
+        - 3.0.2-preview
+        - 3.0.3-preview.0
+        - 3.0.3-preview.4
+        - 3.0.3-preview.5
+        - 3.0.3-preview.6
+        compatible:
+        - 3.0.1-preview
+        - 3.0.2-preview
+        - 3.0.3-preview.0
+        - 3.0.3-preview.4
+        - 3.0.3-preview.5
+        - 3.0.3-preview.6
+        verified: 
+      dependencies:
+      - name: com.unity.settings-manager
+        version: 1.0.1
+      resolvedDependencies:
+      - name: com.unity.settings-manager
+        version: 1.0.1
+      keywords:
+      - grid
+      - snap
+      - manipulation
+      - array
+      - align
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637175663530000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+ssh://git@github.com/Unity-Technologies/com.unity.progrids.git
+        revision: 5081cbdc9c65eb0d3a651118e08fcf741ba0817e
+        path: 
+    - packageId: com.unity.purchasing@2.0.6
+      testable: 0
+      isDirectDependency: 1
+      version: 2.0.6
+      source: 1
+      resolvedPath: E:\_Repository\CGRI\IomCIS\Library\PackageCache\com.unity.purchasing@2.0.6
+      assetPath: Packages/com.unity.purchasing
+      name: com.unity.purchasing
+      displayName: In App Purchasing
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Unity IAP supports the iOS, Mac, tvOS, Google Play, Facebook
+        Gameroom, Windows, Amazon, Samsung Galaxy, Tizen, Cloud Moolah MOO, Xiaomi
+        Mi Game Pay App Stores.
+
+
+        With Unity IAP, setting up in-app purchases
+        for your game across multiple app stores has never been easier.
+
+
+        Use
+        one common API to access all stores for free. With just a few lines of code,
+        you can fully understand and optimize your in-game economy.
+
+
+        Unity
+        IAP automatically couples with Unity Analytics enabling you to monitor and
+        act on trends in your revenue and purchase data across multiple platforms.
+
+
+        Includes
+        client-side receipt validation for Apple, Google Play, and Xiaomi Mi Game
+        Pay.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7
+        - 0.0.8
+        - 0.0.9
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 0.0.17
+        - 0.0.18
+        - 0.0.19
+        - 2.0.0
+        - 2.0.1
+        - 2.0.3
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        compatible:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7
+        - 0.0.8
+        - 0.0.9
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 0.0.17
+        - 0.0.18
+        - 0.0.19
+        - 2.0.0
+        - 2.0.1
+        - 2.0.3
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        verified: 2.1.1
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - purchasing
+      - iap
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 636898903830000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://gitlab.cds.internal.unity3d.com/upm-packages/purchasing/com.unity.purchasing
+        revision: 37674e38ef7548642e33bc97797a71b5eadbecac
         path: 
     - packageId: com.unity.test-framework@1.1.18
       testable: 0
@@ -256,6 +1056,29 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.4-preview
+        - 0.0.29-preview
+        - 1.0.0
+        - 1.0.7
+        - 1.0.9
+        - 1.0.11
+        - 1.0.12
+        - 1.0.13
+        - 1.0.14
+        - 1.0.16
+        - 1.0.17
+        - 1.0.18
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.5
+        - 1.1.8
+        - 1.1.9
+        - 1.1.11
+        - 1.1.13
+        - 1.1.14
+        - 1.1.16
         - 1.1.18
         compatible:
         - 1.1.18
@@ -289,12 +1112,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637378481950000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: 14025b364215f4465cbe1beb7a81e486b2687ced
         path: 
     - packageId: com.unity.textmeshpro@3.0.1
@@ -337,10 +1160,77 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.2
+        - 1.0.21
+        - 1.0.23
+        - 1.0.25
+        - 1.0.26
+        - 1.1.0
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.3.0-preview
+        - 1.3.0
+        - 1.4.0-preview.1b
+        - 1.4.0-preview.2a
+        - 1.4.0-preview.3a
+        - 1.4.0
+        - 1.4.1-preview.1
+        - 1.4.1
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0-preview.7
+        - 1.5.0-preview.8
+        - 1.5.0-preview.10
+        - 1.5.0-preview.11
+        - 1.5.0-preview.12
+        - 1.5.0-preview.13
+        - 1.5.0-preview.14
+        - 1.5.0
+        - 1.5.1
+        - 1.5.3
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.1
+        - 2.1.0-preview.1
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.0-preview.4
+        - 2.1.0-preview.5
+        - 2.1.0-preview.7
+        - 2.1.0-preview.8
+        - 2.1.0-preview.10
+        - 2.1.0-preview.11
+        - 2.1.0-preview.12
+        - 2.1.0-preview.13
+        - 2.1.0-preview.14
+        - 2.1.0
+        - 2.1.1
+        - 2.1.3
+        - 3.0.0-preview.1
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0-preview.5
+        - 3.0.0-preview.7
+        - 3.0.0-preview.8
+        - 3.0.0-preview.10
+        - 3.0.0-preview.11
+        - 3.0.0-preview.12
+        - 3.0.0-preview.13
+        - 3.0.0-preview.14
+        - 3.0.0
         - 3.0.1
+        - 3.0.3
         compatible:
         - 3.0.1
-        verified: 3.0.1
+        - 3.0.3
+        verified: 3.0.3
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -369,7 +1259,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637314376320000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -398,11 +1288,95 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.2.5
         - 1.2.6
+        - 1.2.7
+        - 1.2.9
+        - 1.2.10
+        - 1.2.11
+        - 1.2.12
+        - 1.2.13
+        - 1.2.14
+        - 1.2.15
+        - 1.2.16
+        - 1.2.17
+        - 1.3.0-preview.2
+        - 1.3.0-preview.3
+        - 1.3.0-preview.5
+        - 1.3.0-preview.6
+        - 1.3.0-preview.7
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
         - 1.3.6
+        - 1.4.0-preview.1
+        - 1.4.0-preview.2
+        - 1.4.0-preview.3
+        - 1.4.0-preview.5
+        - 1.4.0-preview.6
+        - 1.4.0-preview.7
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.5.0-pre.2
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.1-pre.1
         compatible:
         - 1.2.6
+        - 1.2.7
+        - 1.2.9
+        - 1.2.10
+        - 1.2.11
+        - 1.2.12
+        - 1.2.13
+        - 1.2.14
+        - 1.2.15
+        - 1.2.16
+        - 1.2.17
+        - 1.3.0-preview.2
+        - 1.3.0-preview.3
+        - 1.3.0-preview.5
+        - 1.3.0-preview.6
+        - 1.3.0-preview.7
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
         - 1.3.6
+        - 1.4.0-preview.1
+        - 1.4.0-preview.2
+        - 1.4.0-preview.3
+        - 1.4.0-preview.5
+        - 1.4.0-preview.6
+        - 1.4.0-preview.7
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.5.0-pre.2
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.1-pre.1
         verified: 1.3.6
       dependencies: []
       resolvedDependencies: []
@@ -424,7 +1398,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637359675340000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -494,6 +1468,63 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
+        path: 
+    - packageId: com.unity.xr.legacyinputhelpers@2.1.4
+      testable: 0
+      isDirectDependency: 1
+      version: 2.1.4
+      source: 1
+      resolvedPath: E:\_Repository\CGRI\IomCIS\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.4
+      assetPath: Packages/com.unity.xr.legacyinputhelpers
+      name: com.unity.xr.legacyinputhelpers
+      displayName: XR Legacy Input Helpers
+      author:
+        name: 
+        email: 
+        url: 
+      category: XR
+      type: 
+      description: This package includes the tracked pose driver for the legacy input
+        system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+        Pose Driver. The Tracked Pose Driver is a monobehavior that enables GameObjects
+        to track input devices, the XR Bindings Seeding Tool adds a menu item under
+        the 'Assets' menu which populates the Input Asset with Unity's crossplatform
+        Input Bindings
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.1.4
+        compatible:
+        - 2.1.4
+        verified: 2.1.4
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - TPD
+      - Tracked Pose Driver
+      - XR
+      - Input
+      - Helpers
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+        revision: 658d345b94c9a7d015f00d946ef160193439a203
         path: 
     - packageId: com.unity.modules.ai@1.0.0
       testable: 0
@@ -2258,8 +3289,14 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
         - 1.0.0
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
         - 1.0.0
         verified: 1.0.0
       dependencies: []
@@ -2280,13 +3317,121 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 636898893830000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: git@gitlab.cds.internal.unity3d.com/upm-packages/core/com.unity.ext.nunit.git
         revision: c8f5044ffe6adb909f9836160b0bdaa30f2d1ec9
+        path: 
+    - packageId: com.unity.settings-manager@1.0.1
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.1
+      source: 1
+      resolvedPath: E:\_Repository\CGRI\IomCIS\Library\PackageCache\com.unity.settings-manager@1.0.1
+      assetPath: Packages/com.unity.settings-manager
+      name: com.unity.settings-manager
+      displayName: Settings Manager
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: A framework for making any serializable field a setting, complete
+        with a pre-built settings interface.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        compatible:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        verified: 1.0.3
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637115980280000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.com:Unity-Technologies/com.unity.settings-manager.git
+        revision: 4e1ab5cb77b40205e6bf01d377846a851232c4e3
+        path: 
+    - packageId: nuget.mono-cecil@0.1.6-preview
+      testable: 0
+      isDirectDependency: 0
+      version: 0.1.6-preview
+      source: 1
+      resolvedPath: E:\_Repository\CGRI\IomCIS\Library\PackageCache\nuget.mono-cecil@0.1.6-preview
+      assetPath: Packages/nuget.mono-cecil
+      name: nuget.mono-cecil
+      displayName: Mono Cecil
+      author:
+        name: 
+        email: 
+        url: 
+      category: Libraries
+      type: 
+      description: The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - mono cecil
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 636898921610000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@gitlab.cds.internal.unity3d.com/upm-packages/core/nuget.mono-cecil.git
+        revision: d9e57e10c26ba36a62a828729ad08eb73d0386b6
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
