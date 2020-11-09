@@ -21,11 +21,12 @@ public class ControlDoctor : MonoBehaviour
             // Link the "horizontal" parameter in the animator to the player's horizontal input
             anim.SetBool("walk", true);
         }
-         if (!Input.GetKey("w"))
+        if (!Input.GetKey("w"))
         {
             // Link the "horizontal" parameter in the animator to the player's horizontal input
             anim.SetBool("walk", false);
         }
+
 
         if (Input.GetKey("a"))
         {
