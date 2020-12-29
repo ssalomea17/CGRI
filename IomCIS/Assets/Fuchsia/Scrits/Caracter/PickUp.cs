@@ -2,9 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations.Rigging;
 
 public class PickUp : MonoBehaviour
 {
+    public Rig rig;
     public Transform theDest;
     private Boolean objectTaken =false;
     private float time = 0;
@@ -37,11 +39,16 @@ public class PickUp : MonoBehaviour
             this.transform.parent = GameObject.Find("mixamorig:RightHandThumb2").transform;
             this.transform.localPosition = new Vector3(0.12f, 0.15f, z);
             this.transform.localRotation = new Quaternion(1, ry, rz, rw);
+
+            if(rig.weight < 0.99f)
+                rig.weight += 0.01f;
         }
         else
         {
             this.transform.parent = null;
             GetComponent<Rigidbody>().useGravity = true;
+            if (rig.weight > 0.01f)
+                rig.weight -= 0.01f;
         }
        
     }

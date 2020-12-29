@@ -305,6 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68c73b5cb856834b9764e9f3f8d8425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rig: {fileID: 1269073849}
   theDest: {fileID: 1152683199}
   x: 0
   y: 0

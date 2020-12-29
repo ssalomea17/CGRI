@@ -32,7 +32,7 @@ public class move_target : MonoBehaviour
         if (objectTaken)
         {
             Vector3 mouse = Input.mousePosition;
-            this.transform.localPosition = new Vector3(Math.Max(0, mouse.x),  mouse.y, 50);
+            this.transform.localPosition = new Vector3(Math.Max(0, mouse.x),  mouse.y, 500);
             x = mouse.x;
             y = mouse.y;
             z = mouse.z;
