@@ -7,9 +7,11 @@ using UnityEngine.Animations.Rigging;
 
 public class PickUp : MonoBehaviour
 {
+    private const bool V = false;
     public Rig rig;
     public Transform theDest;
     private Boolean objectTaken =false;
+    public String Leter;
     private float time = 0;
     public float x = 0.07f;
     public float y;
@@ -24,7 +26,7 @@ public class PickUp : MonoBehaviour
     public void Update()
     {
 
-        if (Input.GetKey("f"))
+        if (Input.GetKey(Leter))
         {
             if (Time.time > time + 0.5)
             {
@@ -35,9 +37,10 @@ public class PickUp : MonoBehaviour
         
         if (objectTaken)
         {
-            GetComponent<Rigidbody>().useGravity = false;
+            GetComponent<Rigidbody>().useGravity = V;
             //this.transform.position = theDest.position;
-            this.transform.parent = GameObject.Find("mixamorig:RightHandThumb2").transform;
+            //this.transform.parent = GameObject.Find("mixamorig:RightHandThumb2").transform;
+            this.transform.parent = theDest;
             this.transform.localPosition = new Vector3(0.12f, 0.15f, z);
             this.transform.localRotation = new Quaternion(1, ry, rz, rw);
 
@@ -46,8 +49,11 @@ public class PickUp : MonoBehaviour
         }
         else
         {
-            this.transform.parent = null;
-            GetComponent<Rigidbody>().useGravity = true;
+
+            this.transform.parent = GameObject.Find("OriginalSyringePlace").transform;
+            this.transform.localPosition = new Vector3(0f, -0.016f, 0f);
+            this.transform.localRotation = new Quaternion(0f, 0f, 0f,0f);
+            //GetComponent<Rigidbody>().useGravity = true;
             if (rig.weight > 0.01f)
                 rig.weight -= 0.01f;
         }
