@@ -67,16 +67,18 @@
     <Compile Include="Assets\Fuchsia\Scrits\Caracter\Moving.cs" />
     <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow.cs" />
     <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\First Person Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Fuchsia\Scrits\Caracter\move_target.cs" />
     <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Drawer\X Axis\Drawer_Pull_X.cs" />
     <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Drawer\Z Axis\Drawer_Pull_Z.cs" />
     <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow1.cs" />
+    <Compile Include="Assets\Fuchsia\Scrits\Caracter\ChangeCamera.cs" />
     <Compile Include="Assets\Fuchsia\Scrits\Camera\Follow_Caracter.cs" />
     <Compile Include="Assets\Soja Exiles\Doctors Office\Scripts &amp; Animations\FanRotation.cs" />
     <Compile Include="Assets\Fuchsia\Scrits\Camera\SetTo_0.cs" />
-    <Compile Include="Assets\Fuchsia\Scrits\Caracter\ChangeCamera.cs" />
-    <Compile Include="Assets\Fuchsia\Scrits\Caracter\move_target.cs" />
+    <Compile Include="Assets\Fuchsia\Syringe\Colision.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\kid\Low poly 3D game character_1\Documentation of Models.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

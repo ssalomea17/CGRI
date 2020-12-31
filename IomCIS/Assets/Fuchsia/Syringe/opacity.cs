@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class opacity : MonoBehaviour
 {
+
+    public Text text;
     private bool boo=false;
     private float time = 0;
     // Start is called before the first frame update
@@ -18,11 +21,12 @@ public class opacity : MonoBehaviour
 
         if (Input.GetKey("c"))
         {
-            if (Time.time > time + 0.5)
-            {
-                time = Time.time;
-                boo = !boo;
-            }
+            
+        }
+        if (Time.time > time + 0.5)
+        {
+            time = Time.time;
+            //text.text = string.Format("Not Colision");
         }
 
         if (boo)
@@ -31,7 +35,17 @@ public class opacity : MonoBehaviour
         }
         else
         {
-            gameObject.GetComponent<Renderer>().enabled = false;
+            //gameObject.GetComponent<Renderer>().enabled = false;
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == "LeftForeArm")
+        {
+            boo = true;
+            
+        }
+        text.text = other.gameObject.name;
     }
 }
