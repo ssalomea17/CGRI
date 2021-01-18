@@ -17,25 +17,30 @@ public class opacity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.GetComponent<Renderer>().enabled = false;
+        //gameObject.GetComponent<Renderer>().enabled = false;
 
-        if (Input.GetKey("c"))
-        {
-            
-        }
+       
         if (Time.time > time + 0.5)
         {
+            if (Input.GetKey("c"))
+            {
+                boo = !boo;
+            }
             time = Time.time;
             //text.text = string.Format("Not Colision");
         }
-
-        if (boo)
+        //print(gameObject.transform.localScale.y);
+        if (boo && gameObject.transform.localScale.y < 1f)
         {
+            //print("Loading");
             gameObject.GetComponent<Renderer>().enabled = true;
+            gameObject.transform.localScale += new Vector3(0, 0.005f, 0);
         }
-        else
+        else if(!boo && gameObject.transform.localScale.y > 0.0005f)
         {
+            //print("un Loading");
             //gameObject.GetComponent<Renderer>().enabled = false;
+            gameObject.transform.localScale -= new Vector3(0, 0.005f, 0);
         }
     }
 

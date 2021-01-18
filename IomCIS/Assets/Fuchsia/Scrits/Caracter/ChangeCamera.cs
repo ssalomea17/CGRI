@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Animations.Rigging;
 
 public class ChangeCamera : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class ChangeCamera : MonoBehaviour
     private float time = 0;
 
     float distValue=0;
+
+    public Rig deactRig;
 
     // Update is called once per frame
     void Update()
@@ -48,6 +51,7 @@ public class ChangeCamera : MonoBehaviour
 
             this.transform.parent = GameObject.Find("BackCamera").transform;
             this.transform.localPosition = new Vector3(0, 0, distValue);
+            deactRig.weight = 0;
         }
 
         this.transform.rotation = this.transform.parent.rotation;

@@ -18,7 +18,7 @@ public class RizeHand : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        rig.weight = 0;
     }
 
     // Update is called once per frame

@@ -52,7 +52,7 @@ public class PickUp : MonoBehaviour
 
             this.transform.parent = GameObject.Find("OriginalSyringePlace").transform;
             this.transform.localPosition = new Vector3(0f, -0.016f, 0f);
-            this.transform.localRotation = new Quaternion(0f, 0f, 0f,0f);
+            this.transform.localRotation = new Quaternion(1f, 0f, 0f,0f);
             //GetComponent<Rigidbody>().useGravity = true;
             if (rig.weight > 0.01f)
                 rig.weight -= 0.01f;

@@ -14,10 +14,17 @@ public class GetEprubet : MonoBehaviour
 
     bool ridica = false;
 
+    Vector3 initial_poz;
+    Quaternion initial_rot;
+    Transform initia_parent;
+
+
     // Start is called before the first frame update
     void Start()
     {
-
+        initial_poz = GameObject.Find("Sample Collection_MD_04_AAA").transform.position;
+        initial_rot = GameObject.Find("Sample Collection_MD_04_AAA").transform.rotation;
+        initia_parent = GameObject.Find("Sample Collection_MD_04_AAA").transform.parent;
     }
 
     // Update is called once per frame
@@ -35,15 +42,23 @@ public class GetEprubet : MonoBehaviour
 
         if (ridica)
         {
-            eprubeta.gameObject.SetActive(true);
-            if (rig.weight < 0.99f)
-                rig.weight += 0.01f;
+
+            GameObject.Find("Sample Collection_MD_04_AAA").transform.parent = GameObject.Find("mixamorig:LeftHandThumb2").transform;
+
+            GameObject.Find("Sample Collection_MD_04_AAA").transform.localPosition = new Vector3(-0.02f, 0, -0.02f);
+            GameObject.Find("Sample Collection_MD_04_AAA").transform.localRotation = new Quaternion(0, 1, 0, 0);
+            //eprubeta.gameObject.SetActive(true);
+            /*if (rig.weight < 0.99f)
+                rig.weight += 0.01f;*/
         }
         else
         {
-            eprubeta.gameObject.SetActive(false);
-            if (rig.weight > 0.01f)
-                rig.weight -= 0.01f;
+            GameObject.Find("Sample Collection_MD_04_AAA").transform.parent = initia_parent;
+            GameObject.Find("Sample Collection_MD_04_AAA").transform.rotation = initial_rot;
+            GameObject.Find("Sample Collection_MD_04_AAA").transform.position = initial_poz;
+            //eprubeta.gameObject.SetActive(false);
+            /*if (rig.weight > 0.01f)
+                rig.weight -= 0.01f;*/
         }
     }
 }
